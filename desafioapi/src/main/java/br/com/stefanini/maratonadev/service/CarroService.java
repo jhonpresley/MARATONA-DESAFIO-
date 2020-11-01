@@ -10,13 +10,10 @@ import javax.inject.Inject;
 import java.util.List;
 import java.util.stream.Collectors;
 
-/**
- * @author danilodorgam
- * @version 0.1.0
- * @created 29/10/2020 on 18:32
- */
+
 @RequestScoped
 public class CarroService {
+	
     @Inject
     CarroDao dao;
 
